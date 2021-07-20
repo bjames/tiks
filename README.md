@@ -1,4 +1,9 @@
 # Scripts
+
+```
+proxyssh_blankpass.py
+mikrotik.sh
+```
 These scripts are hacky pieces of crap. They were written very quickly to do a specific job and not necessarily to do their job well. They are provided for reference only. As an example of how hacky they are, note that AsyncSSH was used to implement the server part of the ssh proxy script, but no other real async code exists. This was because I needed to quickly turn a low interactivity honeypot I had written into an SSH MitM proxy and was more familar with paramiko than AsyncSSH. 
 
 # Notes
